@@ -4,7 +4,6 @@ import { useUser, SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/n
 import { Loader2, Upload, Zap } from "lucide-react";
 import { Paywall } from "./components/paywall";
 
-
 export default function Home() {
   const { isSignedIn, user } = useUser();
   const [prompt, setPrompt] = useState("");
