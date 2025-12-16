@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useUser, SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { Loader2, Upload, Zap } from "lucide-react";
-import { Paywall } from "./components/Paywall";
+import { Paywall } from "./components/paywall";
 
 
 export default function Home() {
